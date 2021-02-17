@@ -1,0 +1,29 @@
+title: David's Corner
+email: david@tennander.se
+description: >- # this means to ignore newlines until "baseurl:"
+  David Tennander is a Software Engineer with a focus on Distributed systems and Infrastructure.
+  This is his corner of the InterTubes.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://david.tennander.se" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: dtennander
+github_username:  dtennander
+header_transparent: false
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-yat
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+exclude:
+  - .idea
